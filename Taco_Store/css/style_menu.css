@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans+Condensed:wght@300&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+body 
+{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.menu
+{
+    width: 100%;
+    background-color: rgb(0, 100, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.menu .contenido
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.menu .imagen
+{
+    background-image: url("./imagenes/icone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65px;
+    width: 65px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.menu .texto
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin:0px;
+}
+.menu .contenido .buttonGen
+{
+    border: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.menu .button
+{
+    background-image: url("./imagenes/carrito vacio2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 45px;
+    filter: invert(100%);
+}
+.menu .contenido .derecha
+{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu .contenido .izquierda
+{
+    position: absolute;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu .contenido .buttonGenR
+{
+    border: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.menu .contenido .salir
+{
+    border: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.menu .contenido .buttonGenI
+{
+    border: 0px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.galeria
+{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,400px);
+    /*grid-template-rows: repeat(auto-fill,400px);*/
+    margin-top: 65px;
+    height: 100vh;
+    width: 100%;
+    background-color:#d5f8d5;
+    padding: 10px;
+}
+/*.galeria .carta
+{
+    max-height: 250px;
+    max-width: 250px;
+}*/
+.galeria .carta img
+{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    display: block;
+}
+.galeria .carta .texto
+{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 0px solid black;
+    border-radius: 0px 0px 20px 20px;
+    background-color: white;
+    color:black;
+}
+
+/*.footerm
+{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}*/
